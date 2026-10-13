@@ -1,0 +1,13 @@
+# Исходные видео не храним в git (лимит GitHub 100 МБ). Берутся из рабочей папки DJSUNRISE.
+*.mov
+*.MOV
+*.mp4
+*.MP4
+!public/video/*.mp4
+node_modules/
+dist/
+.DS_Store
+
+# Скиллы копируются локально, в git не кладем
+.claude/skills/
+_parts/
